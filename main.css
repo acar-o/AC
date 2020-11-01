@@ -1,0 +1,151 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* header */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: white !important;
+    display: flex;
+    z-index: 10;
+}
+.logo {
+    height: 11vh;
+}
+.nav-item {
+margin:0 20px;
+}
+.navbar-collapse {
+    justify-content:flex-end;
+}
+/* header */
+
+
+/* anasayfa */
+
+.wholePage {
+    width: 100%;
+    height: 100vh;
+    padding-top: 13vh;
+}
+.resimVeYazi {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("../AlumniConsulting/images/2.jpg");
+}
+.yazi {
+    width: 60vw;
+    height: 70vh;
+    background-color: rgba(172, 255, 47, 0);
+    
+    padding: 8vh 0 0 10vw;
+}
+.yazi2 {
+    width: 60vw;
+}
+
+.btn {
+    width: 200px;
+}
+.wholePage2 {
+    padding: 20vh 10vw;
+}
+
+/* anasayfa */
+
+
+/* seminerler */
+.resimVeYaziSeminer {
+    
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("../AlumniConsulting/images/3.jpg");
+float: left;
+}
+.cardlar {
+    width: 60%;
+    height: 100vh;
+    background-color:rgb(226,232,233);
+    position: absolute;
+    right: 0;
+    padding: 4vh 10vw;
+    clear: both;
+    text-align: center;
+}
+.bg-success {
+    width: 600px;
+    height: 70px;
+    position: relative;
+    z-index: 0;
+    margin: 1vh auto;
+}
+.icon-seminer{
+    align-items: center;
+}
+/* seminerler */
+
+
+/* footer */
+footer {
+    background-color: rgb(0, 49, 33);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px 10px;
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    height: 45vh;
+}
+footer a {
+    color: white;
+}
+.underline {
+    text-decoration: underline;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 10px;
+    color: white;
+    border-radius: 50%;
+    display: block;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+  }
+/* footer */
+
+/*----------- MOBILE ( max 480 ) ------------*/
+
+@media only screen and (max-width: 480px){
+    
+}
+/*----------- MOBILE ( max 480 ) ------------*/
