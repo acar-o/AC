@@ -4,7 +4,7 @@
         <a class="navbar-brand" href="?url=anasayfa">
             <img class="logo" src="images/logo.png" alt="" srcset="">
         </a>
-        <button class="navbar-toggler" style="margin-right: 5vw !important" type="button" data-toggle="collapse" data-target="#navbarNav"
+        <button class="navbar-toggler" style="margin-right: 5vw !important;" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
